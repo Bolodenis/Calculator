@@ -1,0 +1,51 @@
+body{
+    background-image: url(./image/pexels-nirbito-ninar-20722851.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+button {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+   
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+input[type="text"] {
+    grid-column: span 4;
+    padding: 26px;
+    font-size: 1.2em;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+.equal-btn {
+    background-color: gray;
+}
+#ops{
+    background-color: orange;
+}
+
